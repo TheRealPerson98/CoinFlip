@@ -1,0 +1,8 @@
+name: CoinFlip
+version: '${project.version}'
+main: com.person98.coinflip.CoinFlip
+api-version: 1.19
+commands:
+  coinflip:
+    description: Opens the CoinFlip Menu
+    aliases: cf

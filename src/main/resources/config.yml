@@ -1,0 +1,62 @@
+# The min bet amount
+minAmount: 1000
+
+GUI:
+  Size: 45
+  Title: "CoinFlip"
+  SkullItem:
+    name: "&e%name%"
+    lore:
+      - ""
+      - "&9Match"
+      - "&1&m------------------"
+      - " &e$%money%"
+      - ""
+      - "&9Side chosen"
+      - " &7%side%"
+      - ""
+      - "&7Click to start."
+  BookInfo:
+    type: BOOK
+    name: "&6Comands"
+    lore:
+      - ""
+      - "&6/coinflip"
+      - "&eOpen this Menu"
+      - ""
+      - "&6/coinflip <money> <heads/tails>"
+      - "&eStart a Match"
+      - ""
+      - "&6/coinflip cancel"
+      - "&eRemove your Match"
+      - ""
+      - "&6/coinflip toggle"
+      - "&eEnable/Disable broadcasts"
+      - "&efrom CoinFlips"
+  RefreshItem:
+    type: GRASS
+    name: "&6Refresh"
+    lore:
+      - "&eClick for refresh the Menu"
+  StatsItem:
+    type: PAPER
+    name: "&6Stats"
+    lore:
+      - "&eNTA"
+AnimationGUI:
+  Title: "THE WINNER IS..."
+
+# messages
+Messages:
+  WinBroadcast: "&6&lCoinFlip &8> &e%winner% &7has defeated &e%loser% &7in a CoinFlip of &e$%amount%&7."
+  Entered: "&6&lCoinFlip &8> &7Launched a round with &e$%amount%&7."
+  Canceled: "&6&lCoinFlip &8> &7You removed your Match."
+  CanceledHelp: "&6&lCoinFlip &8> &8&7For remove a CoinFlip, type &e/cf cancel&7."
+  ReceivedMoney: "&6&lCoinFlip &8> &8&7+ &e$%amount%"
+  LostMoney: "&6&lCoinFlip &8> &7- &e$%amount%"
+  NotEnoughMoney: "&6&lCoinFlip &8> &7You dont have enough Money."
+  NotEnoughEnterMoney: "&6&lCoinFlip &8> &7You can insert &e$1000&7 or more."
+  AlreadyInBet: "&6&lCoinFlip &8> &7You already have a Match."
+  NotInBet: "&6&lCoinFlip &8> &7You dont have a Match."
+  ToggleON: "&6&lCoinFlip &8> &7Broadcast Enabled."
+  ToggleOFF: "&6&lCoinFlip &8> &7Broadcast Disabled."
